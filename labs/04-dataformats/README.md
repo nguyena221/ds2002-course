@@ -54,7 +54,7 @@ The event coordinator needs an automated system that can:
    
    e. The script should contain an `if __name__ == "__main__":` block that contains a call to a function `main()`.
 
-   f. The extract, transform, load operations should be implemented in **three separate functions**. These three functions should be called in sequence from within the `main` function. They define the core data pipeline. The overall code structure should be similar to `05-etl_demo.py` in `demo/05-dataformats`.
+   f. The extract, transform, load operations should be implemented in **three separate functions**. These three functions should be called in sequence from within the `main` function. They define the core data pipeline. The overall code structure should be similar to `05-etl_demo.py` in `demo/05-dataformats`. Each function, including `main()` should have a doc string to document its purpose.
    
      * **extract function:** Downloads the JSON data from the API endpoint [http://api.open-notify.org/iss-now.json](http://api.open-notify.org/iss-now.json). You may want to save the raw JSON to a temporary file so you can inspect its structure. **Hint:** Check the API documentation at [http://open-notify.org/Open-Notify-API/ISS-Location-Now/](http://open-notify.org/Open-Notify-API/ISS-Location-Now/). The function should handle errors gracefully using try/except blocks. Take inspiration from `05-etl_demo.py` (in `demo/05-dataformats`). The function should return the parsed JSON data record.
    
