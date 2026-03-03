@@ -1,0 +1,2 @@
+user_id	first_name	post_text
+1	Annie	Excited to join the platform!
