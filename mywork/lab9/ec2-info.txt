@@ -1,0 +1,275 @@
+{
+  "ImageId": "ami-07ff62358b87c7116",
+  "InstanceId": "i-09829fd2c5dc3d692",
+  "InstanceType": "t3.nano",
+  "InstanceName": "ds2002-demo",
+  "PublicIpAddress": "54.234.9.240",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-0a6918c494f7f0022",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-private",
+  "PublicIpAddress": "54.237.238.122",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-04680790a315cd58d",
+  "InstanceId": "i-0a2d823c4f5da04f7",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-kwj2hk",
+  "PublicIpAddress": "98.93.70.12",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-0573e26baa3d1b411",
+  "InstanceType": "t2.nano",
+  "InstanceName": "Lab 9",
+  "PublicIpAddress": "54.159.32.51",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-0d9d8a7d4be0a8872",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-tsc9rv",
+  "PublicIpAddress": "72.44.41.45",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-00bdc7402c5a88c68",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-uak4ux",
+  "PublicIpAddress": "54.145.0.59",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-0f31a099ee23f79f6",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-xak2wm",
+  "PublicIpAddress": "98.81.145.25",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-02ea88f65596c8c5d",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-awj8sf",
+  "PublicIpAddress": "3.85.129.138",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-0a0d81b30a0f21031",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-khs3z-test",
+  "PublicIpAddress": "54.91.20.146",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0014a51d9784fc4c4",
+  "InstanceId": "i-0d7fda4bdf2fc9ca8",
+  "InstanceType": "t3.nano",
+  "InstanceName": "ds2002-mkt3qv",
+  "PublicIpAddress": "54.144.231.165",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-07ff62358b87c7116",
+  "InstanceId": "i-060ba878168112a89",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-bvc5vq",
+  "PublicIpAddress": "54.242.0.252",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-042e8287309f5df03",
+  "InstanceId": "i-0cee8a387d416e8f7",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-cwb3ud",
+  "PublicIpAddress": "54.152.108.171",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-042e8287309f5df03",
+  "InstanceId": "i-093769bd03bc70860",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-tsc9rv",
+  "PublicIpAddress": "34.227.9.141",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-04680790a315cd58d",
+  "InstanceId": "i-08626ef7e31c0de4a",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-fvd6wy",
+  "PublicIpAddress": "54.198.202.195",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-04680790a315cd58d",
+  "InstanceId": "i-0eb291c483e614b20",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-fvd6wy",
+  "PublicIpAddress": "98.88.32.75",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-07ff62358b87c7116",
+  "InstanceId": "i-0bead4231067f6f15",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-eby2ch",
+  "PublicIpAddress": "54.234.79.151",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-006c3a967111e0a71",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-dke5td",
+  "PublicIpAddress": "54.234.37.149",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-0736fadd1fdf75be1",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-dke5td",
+  "PublicIpAddress": "98.88.32.46",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-03d976285a1e8092c",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-dke5td",
+  "PublicIpAddress": "3.91.157.25",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-0fa8b13aad45f65f8",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-sny8gv",
+  "PublicIpAddress": "13.218.241.105",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-0dcf8ad5e4f2edee4",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-bae7kx",
+  "PublicIpAddress": "52.90.221.242",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-0b1b26251386f768c",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-fkp8mn",
+  "PublicIpAddress": "54.159.15.47",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-082c88cfaf762b685",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-fkp8mn",
+  "PublicIpAddress": "174.129.68.195",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-08b829fff633b0234",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-ddz2pt",
+  "PublicIpAddress": "3.84.197.142",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
+{
+  "ImageId": "ami-0ec10929233384c7f",
+  "InstanceId": "i-08b081695acd3a611",
+  "InstanceType": "t2.nano",
+  "InstanceName": "ds2002-ddz2pt",
+  "PublicIpAddress": "13.222.125.39",
+  "State": {
+    "Code": 16,
+    "Name": "running"
+  }
+}
