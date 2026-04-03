@@ -47,6 +47,8 @@ If not, go through the `aws configure` steps of [Lab 08](../08-s3/README.md#setu
 
 ## Task 1 - Docker on AWS (EC2)
 
+![lab10-task1](../../docs/images/lab10-task1.png)
+
 ### Step 1: Setup
 
 1. In Lab 09, you created an EC2 instance with Ubuntu Linux as the operating system. It should be named `ds2002-<your_id>`, e.g. `ds2002-mst3k`. If you deleted that instance, launch a new one using the steps in [Lab 09](../09-ec2/README.md) (for example with your `launch-ec2.sh` script). **Do not forget to configure your SSH key pair** (`.pem` file); you need it for the next step.
@@ -119,7 +121,7 @@ Replace `<uva_computing_id>` with your UVA computing ID (no `<>`).
    sudo docker run -i mysql:8.0 mysql -h ds2002.cgls84scuy1e.us-east-1.rds.amazonaws.com -P 3306 -u <uva_computing_id> -p"$MYSQL_PWD" < initialize.sql
    ```
 
-The `< initialize.sql` part is **shell input redirection**: the bash on your EC2 host opens `initialize.sql` and sends its contents to the process’s **standard input**. Combined with `docker run -i`, that stdin is attached to the `mysql` client inside the container, so MySQL executes every statement in the file against RDS (as if you had pasted the file at a `mysql>` prompt).
+The `< initialize.sql` part is **shell input redirection**: the bash on your EC2 host opens `initialize.sql` and sends its contents to the process’s **standard input**. Combined with `docker run -i`, that stdin is passed to the `mysql` client inside the container, so MySQL executes every statement in the file against the database (as if you had pasted the file at a `mysql>` prompt). When the command completes, you are still on the Ubuntu EC2 instance where you ran the `docker run` command.
 
 ### Step 4: Update your MySQL database
 
