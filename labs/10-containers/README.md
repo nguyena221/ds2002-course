@@ -188,9 +188,11 @@ module load apptainer
 apptainer pull lolcow-latest.sif docker://godlovedc/lolcow:latest
 ```
 
-This may take a few minutes. If the terminal looks unresponsive, wait; large image pulls are slow.
+This may take a few minutes. If the terminal looks unresponsive, wait; large image pulls are slow. When the pull finishes, you should have `lolcow-latest.sif` in your home directory (the image in Apptainer format).
 
-When the pull finishes, you should have `lolcow-latest.sif` in your home directory (the image in Apptainer format).
+>**If you see an error ""**, it indicates that too many docker pull requests have been run from the node you're on. There's nothing you have done wrong; it's a limitation DockerHub imposes. 
+Instead of `apptainer pull`, copy the prebuild apptainer image file `lolcow-latest.sif` from our course S3 bucket to your current directory with this command:
+`aws s3 cp s3://course-read-only/lolcow-latest.sif .`
 
 Test it:
 
