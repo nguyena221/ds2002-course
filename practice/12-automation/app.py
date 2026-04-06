@@ -2,7 +2,7 @@ from chalice import Chalice
 
 app = Chalice(app_name="s3-event")
 
-# Whenever an object is uploaded to 'mybucket'
+# Whenever an object is uploaded to 'chalice-example'
 # this lambda function will be invoked.
 
 
