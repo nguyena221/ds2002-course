@@ -1,0 +1,4 @@
+user_id	first_name	post_text
+1	Annie	Excited to join the platform!
+1	Annie	Hello world!
+1	Annie	blah blah
